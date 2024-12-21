@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'ru'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'commons-io:commons-io:2.11.0'
+}
